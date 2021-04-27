@@ -171,7 +171,7 @@
             width: 100%;
         }
         .header h1 {
-            font-size: 4vw;
+            font-size: 5vw;
         }
         .column1 {
             width: 100%;
@@ -180,10 +180,10 @@
             width: 100%;
         }
         .column2 h3 {
-            font-size: 3vw;
+            font-size: 4vw;
         }
         .column2 p {
-            font-size: 2vw;
+            font-size: 3vw;
         }
         iframe {
             width: 100%;
