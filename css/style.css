@@ -185,4 +185,7 @@
         .column2 p {
             font-size: 2vw;
         }
+        iframe {
+            width: 100%;
+        }
     }
