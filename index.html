@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EVA</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <script src="./js/codigo.js"></script>
+    <link href="./fontawesome/css/all.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="header">
+        <h1>Estructura de HTML y Hoja de estilos CSS</h1>
+        <i class="fas fa-laptop-code"></i>
+    </div>
+
+    <ul>
+        <li><a href="#section8">Valores</a></li>
+        <li><a href="#section7">Comentarios</a></li>
+        <li><a href="#section6">Reglas</a></li>
+        <li><a href="#section5">Propiedades </a></li>
+        <li><a href="#section4">Etiquetas</a></li>
+        <li><a href="#section3">Atributos </a></li>
+        <li><a href="#header"><i class="fas fa-arrow-up"></i></a></li>
+    </ul>
+
+
+    <div id="section1">
+
+        <div id="column1">
+            <h1>Tutorial HTML Y CSS</h1>
+            <iframe src="https://www.youtube.com/embed/gUvaSIIHj_k" width="900" height="600" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="section2">
+        <div class="column2">
+            <h3>ESTRUCTURA HTML </h3>
+            <p>"!DOCTYPE>: Es un tipo de documento </p>
+
+            <p>html: Toda la información que hay que poner en la web se empieza mediante esta etiqueta </p>
+
+            <p> head: Es el encabezado de la página </p>
+            <p> /head: Es para cerrar el encabezado</p>
+
+
+            <p> body: El body es el cuerpo de página y ahí podremos poner cualquier cosa </p>
+            <p>/body: Sirve para cerrar el cuerpo de página </p>
+
+            <p>/html: Indica que a partir de ahí se acaba el código. No puede haber nada más abajo</p>
+
+
+        </div>
+    </div>
+
+    <div class="column2">
+        <img src="./img/estructura-basica-de-una-pagina-web-en-html.jpg" alt="Imagen estructura ">
+    </div>
+
+    <div id="section3">
+        <div class="column2">
+            <img src="./img/atributos.JPG" alt="Imagen de los atributos ">
+        </div>
+        <div class="column2">
+            <h3>ATRIBUTOS</h3>
+            <p>Los atributos proporcionan información adicional acerca de los elementos. </p>
+            <p> Un ejemplo de un atributo podría ser el de la imagen → href </p>
+            <p>tiene la función de hipervínculo de una página externa o un atajo para la misma página en la que nos encontramos
+        </div>
+    </div>
+
+    <div id="section4">
+        <div class="column2">
+            <h3>ETIQUETAS</h3>
+            <p> Las etiquetas sirven para dar forma a la estructura.</p>
+            <p> Algunos ejemplos son: las etiquetas al igual que se tienen que abrir se tienen que cerrar .
+            </p>
+        </div>
+        <p> Se puede utilizar el a o el link</p>
+        <div class="column2">
+            <img src="./img/etiquetas.JPG" alt="Imagen etiquetas ">
+        </div>
+    </div>
+
+
+    <div id="section5">
+        <div class="column2">
+            <img src="./img/propiedades.JPG" alt="Imagen de las propiedades">
+        </div>
+        <div class="column2">
+            <h3>PROPIEDADES</h3>
+            <p>La propiedades son para definir las mismas de las reglas, por ejemplo la fuente del texto, el tamaño, etc. </p>
+            <p> Ejemplos: </p>
+        </div>
+    </div>
+
+    <div id="section6">
+        <div class="column2">
+            <h3>REGLAS</h3>
+            <p> Una regla CSS se compone de un selector y de un bloque de declaración</p>
+            <p>Cada declaración está compuesta por uno o más pares propiedad/valor</p>
+            <p> El bloque de declaración empieza y acaba con los signos de llaves { ... }</p>
+            <p>Cada par propiedad/valor se separa por el signo punto y coma ; </p>
+            <p>Cada par propiedad/valor se separa por el signo punto y coma ; </p>
+        </div>
+        <div class="column2">
+            <img src="./img/reglas.JPG" alt="Imagen reglas ">
+
+        </div>
+
+        <div id="section7">
+            <div class="column2">
+                <img src="./img/comentarios.JPG" alt="Imagen de los comentarios">
+            </div>
+            <div class="column2">
+                <h3>COMENTARIOS</h3>
+                <p>Para añadir comentarios en CSS se usa la siguiente estructura: /* TEXTO A COMENTAR */ </p>
+                <p> Además se mostrará en color gris para confirmar que es un comentario. </p>
+            </div>
+        </div>
+
+        <div id="section8">
+            <div class="column2">
+                <h3>VALORES</h3>
+                <p> Los Valores aportan información adicional sobre la propiedad y además dan formato </p>
+                <p>Ejemplo: </p>
+            </div>
+            <div class="column2">
+                <img src="./img/valores.JPG" alt="Imagen de los valores">
+
+            </div>
+        </div>
+
+        <div id="section9">
+            <div class="column1">
+                <h2>Selecciona el idioma</h2>
+                <select name="language" id="language" onchange="language()">
+                                    <option value="ES" selected>Español</option>
+                                    <option value="CA">Catalan</option>
+                                </select>
+            </div>
+        </div>
+    </div>
+
+</body>
